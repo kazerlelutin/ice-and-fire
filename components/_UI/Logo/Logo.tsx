@@ -1,4 +1,5 @@
-import { forwardRef, LegacyRef } from 'react'
+/* eslint-disable react/display-name */
+import { forwardRef } from 'react'
 import classes from './Logo.module.css'
 
 const Logo = forwardRef<HTMLInputElement>(({},ref) => {
