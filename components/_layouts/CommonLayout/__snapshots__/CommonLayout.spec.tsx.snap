@@ -11,11 +11,15 @@ exports[`<CommonLayout /> > Check snapshot 1`] = `
       <div
         class="_container_46c4bf"
       >
-        <div
-          class="_container_5bb206"
+        <a
+          href="/"
         >
-          Ice & Fire
-        </div>
+          <div
+            class="_container_5bb206"
+          >
+            Ice & Fire
+          </div>
+        </a>
       </div>
     </header>
     <main
