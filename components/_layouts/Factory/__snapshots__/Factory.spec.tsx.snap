@@ -1,0 +1,9 @@
+// Vitest Snapshot v1
+
+exports[`<Factory /> > Check snapshot 1`] = `
+<DocumentFragment>
+  <p>
+    hi !
+  </p>
+</DocumentFragment>
+`;

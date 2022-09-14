@@ -1,0 +1,20 @@
+.container {
+  padding: 10px;
+  border: 1px solid var(--color-fire);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  position: sticky;
+  top: 40px;
+  background: var(--color-bg);
+  border-radius: 5px;
+}
+
+.title {
+  font-size: 1.3em;
+}
+
+.released {
+  font-size: .9em;
+}

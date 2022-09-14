@@ -1,0 +1,16 @@
+.container {
+  background: var(--color-bg-light);
+  padding: 10px;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+}
+
+.container:hover {
+  box-shadow: 6px 6px 0 rgba(0, 0, 0, .2);
+}
+
+.title {
+  text-align: center;
+  
+}

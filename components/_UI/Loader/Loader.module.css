@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.grid {
+  display: inline-grid;
+  margin: 8px auto;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-column-gap: 5px;
+}
+
+.point {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  opacity: 0;
+  background: var(--color-text);
+  animation: appear 3s infinite backwards;
+}
+
+@keyframes appear {
+  50%,
+  70% {
+    opacity: 1;
+  }
+
+  0%,
+  100%,
+  80% {
+    opacity: 0;
+  }
+
+  100%,
+  50% {
+    transform: translateX(0);
+  }
+}

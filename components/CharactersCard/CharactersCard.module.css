@@ -1,0 +1,18 @@
+.container {
+  background: rgba(0, 0, 0, .3);
+  padding: 10px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.name {
+  font-size: 1.1em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.family {
+  font-size: .8em;
+}

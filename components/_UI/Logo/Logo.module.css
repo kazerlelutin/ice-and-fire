@@ -1,0 +1,11 @@
+.container {
+  font-size: 1.1em;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 200ms ease-in-out;
+  color: var(--color-text);
+}
+
+.container:hover {
+  text-shadow: 1px 1px 3px var(--color-fire);
+}

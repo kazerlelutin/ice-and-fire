@@ -1,20 +1,38 @@
 {
-  "name": "nextjs",
+  "name": "ice--and-fire",
+  "author": {
+    "email": "b@bouteiller.contact",
+    "name": "Benoist Bouteiller",
+    "url": "https://bouteiller.contact"
+  },
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "test": "vitest",
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
+    "axios": "^0.27.2",
+    "dayjs": "^1.11.5",
     "next": "12.3.0",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-toastify": "^9.0.8"
   },
   "devDependencies": {
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^14.4.3",
+    "@types/node": "18.7.17",
+    "@types/react": "18.0.19",
+    "@vitejs/plugin-react": "^2.1.0",
     "eslint": "8.23.0",
-    "eslint-config-next": "12.3.0"
+    "eslint-config-next": "12.3.0",
+    "jsdom": "^20.0.0",
+    "vitest": "^0.23.2"
   }
 }

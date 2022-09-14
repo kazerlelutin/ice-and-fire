@@ -1,0 +1,16 @@
+.container {
+  padding: 20px;
+}
+
+.books {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+
+@media screen and (max-width:500px){
+  .books {
+    flex-direction: column;
+  }
+}

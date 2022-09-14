@@ -1,0 +1,30 @@
+// Vitest Snapshot v1
+
+exports[`<CommonLayout /> > Check snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="_container_f3f7d0"
+  >
+    <header
+      class="_header_f3f7d0"
+    >
+      <div
+        class="_container_46c4bf"
+      >
+        <div
+          class="_container_5bb206"
+        >
+          Ice & Fire
+        </div>
+      </div>
+    </header>
+    <main
+      class="_main_f3f7d0"
+    >
+      <p>
+        my content
+      </p>
+    </main>
+  </div>
+</DocumentFragment>
+`;

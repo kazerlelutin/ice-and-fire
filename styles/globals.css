@@ -1,26 +1,58 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Oxygen:wght@400;700&display=swap');
 
-a {
-  color: inherit;
-  text-decoration: none;
+:root {
+  --color-bg: #593936;
+  --color-bg-light: #704e4b;
+  --color-text: #F2E399;
+  --color-fire:#F27405;
+  --color-fire-second: #F24822;
+  --color-hot: #D92929
 }
 
 * {
   box-sizing: border-box;
+  scrollbar-color: var(--color-fire-second) var(--color-fire);
+  scrollbar-width: thin;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-fire);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--color-fire-second);
+  transition: 200ms ease-in-out;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Oxygen', sans-serif;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: var(--color-bg);
+  font-size: 16px;
+  box-sizing: border-box;
+  height: 100vh;
+  color: var(--color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+label {
+  font-family: 'Cinzel', serif;
+  font-weight: 700;
+  margin: 0;
+}
+
+a {
+  color: var(--color-fire);
 }
